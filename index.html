@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Higher or Lower — Finance Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💸 Higher or Lower: Finance Edition</h1>
+
+    <div class="game">
+      <div class="card fade" id="left-card">
+        <img id="left-image" src="" alt="Item">
+        <h2 id="left-name"></h2>
+        <p id="left-value"></p>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="card fade" id="right-card">
+        <img id="right-image" src="" alt="Item">
+        <h2 id="right-name"></h2>
+        <div class="buttons">
+          <button id="higher-btn">📈 Выше</button>
+          <button id="lower-btn">📉 Ниже</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <p>Очки: <span id="score">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
