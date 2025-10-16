@@ -81,6 +81,14 @@ button {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.group-members {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(255,204,0, 0.5);
+  text-shadow: 0 0 10px #ffcc00aa;
+  
+}
+
 button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px #00b8ff;
@@ -103,3 +111,4 @@ button:hover {
     transform: scale(1);
   }
 }
+
