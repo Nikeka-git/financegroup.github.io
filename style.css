@@ -88,6 +88,7 @@ button {
   font-weight: bold;
   color: rgba(255,204,0, 0.5);
   text-shadow: 0 0 10px #ffcc00aa;
+  margin-top: 30px;
 }
 
 button:hover {
@@ -112,5 +113,6 @@ button:hover {
     transform: scale(1);
   }
 }
+
 
 
