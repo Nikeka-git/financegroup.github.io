@@ -82,11 +82,12 @@ button {
 }
 
 .group-members {
+  display: flex;
+  justify-content: column-end;
   font-size: 28px;
   font-weight: bold;
   color: rgba(255,204,0, 0.5);
   text-shadow: 0 0 10px #ffcc00aa;
-  
 }
 
 button:hover {
@@ -111,4 +112,5 @@ button:hover {
     transform: scale(1);
   }
 }
+
 
